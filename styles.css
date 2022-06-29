@@ -1,0 +1,63 @@
+#container {
+    border: 5px solid black;
+    max-width: 500px;
+    min-height: 600px;
+    margin: 50px auto;
+    box-shadow: 5px 5px 3px;
+}
+
+#calc {
+    margin: 20px 30px;
+}
+
+#screen {
+    background-color: white;
+    text-align: right;
+    padding: 0 30px;
+    border: 3px solid black;
+    font-size: 72px;
+}
+
+.button {
+    padding: 5px;
+    margin: 5px;
+    font-size: 60px;
+    flex: 1 0 20%;
+    text-align: center;
+    color: white;
+    box-shadow: 3px 3px black;
+}
+
+.button:hover {
+    transform: translate(1px, 1px);
+    box-shadow: 2px 2px black;
+}
+
+.button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 1px 1px black;
+}
+.number {
+    background-color: #333333;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.additional {
+    background-color: orangered;
+}
+#buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: wrap-reverse;
+}
+
+#history {
+    font-size: 36px;
+}
+
+body {
+    background-color: wheat;
+}
