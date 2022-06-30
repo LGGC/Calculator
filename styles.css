@@ -1,6 +1,8 @@
 #container {
     border: 5px solid black;
     max-width: 500px;
+    min-width: 500px;
+
     min-height: 600px;
     margin: 50px auto;
     box-shadow: 5px 5px 3px;
@@ -14,9 +16,12 @@
     background-color: white;
     text-align: right;
     padding: 0 30px;
+    word-wrap: break-word;
+    max-height: fit-content;
     border: 3px solid black;
     font-size: 72px;
 }
+
 
 .button {
     padding: 5px;
